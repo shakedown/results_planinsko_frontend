@@ -207,7 +207,7 @@ function getresults(stage, champ, group)
 		},
 		error: function() {
 		   if(loadcount==0) {
-			   $('#stageresults').html('<h3>Резултати от '+typenames[stage]+'</h3><div class="bs-callout bs-callout-danger">Възникна грешка при зареждане на резултатите. Моля опитайте да презаредите страницата.</div>');
+			   $('#stageresults').html('<h3>Резултати от '+typenames[stage]+'</h3><div class="bs-callout bs-callout-danger">Възникна грешка при зареждане или резултатите все още не са налични. Моля опитайте да презаредите страницата.</div>');
 		   }
 		   
 		   if(loadcount>0) {
